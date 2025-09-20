@@ -1,0 +1,35 @@
+POST http://localhost:3333/usuario
+Content-Type: application/json
+
+{
+    "name": "mariaFoda",
+    "email": "cuuu",
+    "cpf": "1234"
+} 
+
+
+###
+
+
+GET http://localhost:3333/usuario
+
+
+###
+
+
+PUT http://localhost:3333/usuario/9ab24f7e-3a82-481f-8e7b-44521e181e54
+Content-Type: application/json
+
+{
+    "name": "mariaBosta",
+    "email": "cuuu",
+    "cpf": "1234"
+}
+
+
+###
+
+
+DELETE  http://localhost:3333/usuario/9ab24f7e-3a82-481f-8e7b-44521e181e54
+
+
